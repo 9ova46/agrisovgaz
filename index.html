@@ -98,7 +98,7 @@ nav a:hover::after{width:100%}
 .spec-label{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:4px}
 .hero-visual{position:relative}
 .hero-visual .frame{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--border-soft)}
-.hero-visual img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.hero-visual img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
 .hero-visual .tag{position:absolute;left:18px;bottom:18px;background:rgba(15,23,42,.82);backdrop-filter:blur(8px);color:#fff;font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:10px 16px;border-radius:10px}
 
 /* sections */
@@ -112,7 +112,7 @@ nav a:hover::after{width:100%}
 .products-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .product-card{border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;background:var(--bg);transition:transform var(--base) var(--ease),box-shadow var(--base) var(--ease)}
 .product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
-.product-card img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.product-card img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
 .product-body{padding:26px}
 .product-meta{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
 .product-body h3{margin-bottom:10px}
@@ -304,7 +304,7 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
 
       </div>
       <div class="hero-visual reveal">
-        <div class="frame"><img src="img/hero-new.jpg" alt="Металлические опоры ЛЭП" fetchpriority="high" width="700" height="695"></div>
+        <div class="frame"><img src="img/hero-new.jpg" alt="Металлические опоры ЛЭП" fetchpriority="high"></div>
         <span class="tag">многогранные · решетчатые</span>
       </div>
     </div>
@@ -320,7 +320,7 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
       </div>
       <div class="products-grid">
         <article class="product-card reveal">
-          <img src="img/left-new.jpg" alt="Многогранные опоры ЛЭП" loading="lazy" width="404" height="404">
+          <img src="img/left-new.jpg" alt="Многогранные опоры ЛЭП" loading="lazy">
           <div class="product-body">
             <div class="product-meta">01 · 6–330 кВ</div>
             <h3>Многогранные гнутые</h3>
@@ -333,7 +333,7 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
           </div>
         </article>
         <article class="product-card reveal">
-          <img src="img/right-new.jpg" alt="Решетчатые опоры ЛЭП" loading="lazy" width="700" height="328">
+          <img src="img/right-new.jpg" alt="Решетчатые опоры ЛЭП" loading="lazy">
           <div class="product-body">
             <div class="product-meta">02 · 35–500 кВ</div>
             <h3>Решетчатые</h3>
