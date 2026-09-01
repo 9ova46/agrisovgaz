@@ -152,17 +152,7 @@ nav a:hover::after{width:100%}
 .form-note{font-size:12px;color:var(--faint);margin-top:12px}
 .form-ok{display:none;text-align:center;padding:20px 0}
 
-/* demo */
-.demo-notice{padding:40px 0 72px}
-.demo-box{display:grid;grid-template-columns:.9fr 1.5fr;gap:36px;align-items:center;background:#0d1526;border:1px solid rgba(255,255,255,.07);border-radius:20px;padding:38px 40px;position:relative;overflow:hidden}
-html[data-theme="dark"] .demo-box{background:#0a0f1c}
-.demo-box::before{content:"";position:absolute;inset:auto -20% -70% auto;width:55%;height:170%;background:radial-gradient(ellipse at 70% 50%,rgba(29,78,216,.22),transparent 62%);pointer-events:none}
-.demo-box h3{color:#fff;font-size:clamp(26px,3.6vw,38px);line-height:.92;letter-spacing:-.03em}
-.demo-box h3 span{color:var(--accent)}
-.demo-box p{color:#9fb0c5;font-size:16px;line-height:1.55;position:relative}
-.demo-box p strong{color:#fff;font-weight:600}
-html.compare-open .demo-notice{display:none}
-@media(max-width:820px){.demo-box{grid-template-columns:1fr;gap:18px;padding:28px 24px}}
+}
 
 /* footer */
 footer{border-top:1px solid var(--border-soft);padding:44px 0 28px}
@@ -257,7 +247,7 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
 
 <header>
   <div class="container header-inner">
-    <a class="logo" href="#main"><img src="img/logo.svg" alt="АГРИСОВГАЗ"><span>АГРИСОВГАЗ<small>опоры лэп · с 1991</small></span></a>
+    <a class="logo" href="#main"><img src="img/logo.svg" alt="АГРИСОВГАЗ"><span>АГРИСОВГАЗ<small>опоры лэп · с 1990</small></span></a>
     <nav>
       <a href="#products">Опоры</a>
       <a href="#advantages">Преимущества</a>
@@ -286,7 +276,7 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <p class="eyebrow reveal">Калужская обл. · производство с 1991</p>
+        <p class="eyebrow reveal">Калужская обл. · производство с 1990</p>
         <h1 class="reveal">Опоры ЛЭП<br><span class="accent">от производителя</span></h1>
         <p class="lead reveal">Многогранные 6–330 кВ и решетчатые 35–500 кВ — по типовым и индивидуальным проектам. Горячее цинкование на своих мощностях, контроль, доставка по России.</p>
         <div class="hero-ctas reveal">
@@ -419,14 +409,6 @@ html.compare-open .compare-btn,html.compare-open .theme-toggle{opacity:0;pointer
   </section>
 
   <!-- DEMO NOTICE -->
-  <section class="demo-notice" aria-label="Урезанная демо-версия">
-    <div class="container">
-      <div class="demo-box">
-        <h3>ДАВАЙТЕ<br>СДЕЛАЕМ<br><span>ЧТО-ТО КРУТОЕ</span></h3>
-        <p><strong>Перед вами демо из 2–3 блоков — этого достаточно, чтобы оценить подачу и уровень проработки.</strong> Полный сайт соберём под вас: все разделы, каталог с фильтрами, интеграции с CRM и приёмом заявок, SEO и аналитика.</p>
-      </div>
-    </div>
-  </section>
 
 </main>
 
